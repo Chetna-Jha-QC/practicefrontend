@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Users App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Mini Users App</h1>
+
+    <!-- Fetch and Action Buttons -->
+    <button id="fetchUsers">Fetch Users</button>
+    <button id="updateUser">Update User of ID 1</button>
+    <button id="deleteUser">Delete User of ID 1</button>
+
+    <!-- Form to Create a New User -->
+    <h2>Create a New User</h2>
+    <form id="createUserForm">
+        <input type="text" id="userId" placeholder="Enter User ID" required />
+        <input type="text" id="userName" placeholder="Enter User Name" required />
+        <button type="submit">Add User</button>
+    </form>
+
+    <!-- Display Users -->
+    <h2>Users List</h2>
+    <ul id="usersList"></ul>
+
+    <script src="./main.js"></script>
+</body>
+</html>
